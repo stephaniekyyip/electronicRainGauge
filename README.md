@@ -9,11 +9,11 @@ In addition to constructing the rain gauge hardware, I also wrote the code for t
 
 ### Structure of rain gauge code:
 - Setup SPI and I2C for communication between the microcontroller and components
-- while(1) {
--   Retrieve data from the pressure sensors
--   Get the time from the real time clock
--   Create a new text file on the SD card reader
--   Save the pressure data and time onto the text file
--   Put the microcontroller to sleep to conserve power
--   Wake up the microcontroller to take data every 15 minutes
+- Repeat forever {
+  - Retrieve data from the pressure sensors
+  - Get the time from the real time clock
+  - Create a new text file on the SD card reader
+  - Save the pressure data and time onto the text file
+  - Put the microcontroller to sleep to conserve power
+  - Wake up the microcontroller after 15 minutes
 - }
