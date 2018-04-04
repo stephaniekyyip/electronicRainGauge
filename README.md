@@ -1,5 +1,4 @@
 # Electronic Rain Gauge
-## Senior design project
 
 For my senior design project, my team was tasked with with creating an environmental sensor curriculum for middle school students in Darrington, WA. We decided to create an electronic rain gauge. 
 
@@ -9,11 +8,11 @@ In addition to constructing the rain gauge hardware, I also wrote the code for t
 
 ### Structure of rain gauge code:
 - Setup SPI and I2C for communication between the microcontroller and components
-- Repeat forever {
+- Repeat forever:
   - Retrieve data from the pressure sensors
   - Get the time from the real time clock
   - Create a new text file on the SD card reader
   - Save the pressure data and time onto the text file
   - Put the microcontroller to sleep to conserve power
   - Wake up the microcontroller after 15 minutes
-- }
+
