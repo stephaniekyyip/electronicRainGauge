@@ -20,7 +20,7 @@ The rain gauge used two pressure sensors to find a differential pressure, which 
  ### External Software Libraries Used
  - [Adafruit BMP280](https://github.com/adafruit/Adafruit_BMP280_Library) (Pressure sensors)
  - [DS1307 RTC](https://github.com/PaulStoffregen/DS1307RTC) (Real Time Clock)
- - [LCD1602](https://www.dfrobot.com/wiki/index.php/I2C/TWI_LCD1602_Module_(SKU:_DFR0063)) (LCD screen used for testing purposes)
+ - [LCD1602](https://www.dfrobot.com/wiki/index.php/I2C/TWI_LCD1602_Module_(SKU:_DFR0063)) (LCD screen used for testing and calibration)
  
  ### Hardware Components
  - BMP280 x2 (Pressure Sensor)
