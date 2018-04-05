@@ -12,8 +12,8 @@ The rain gauge used two pressure sensors to find a differential pressure, which 
 - Repeat forever (or until the battery dies):
   - Retrieve data from the pressure sensors
   - Get the time from the real time clock
-  - Create a new text file on the SD card reader
-  - Save the pressure data and time onto the text file
+  - Create new text file or open existing text file on the SD card
+  - Save the pressure data and current time onto the text file
   - Put the microcontroller to sleep to conserve power
   - Wake up the microcontroller after 15 minutes
 
