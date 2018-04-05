@@ -16,5 +16,20 @@ The rain gauge used two pressure sensors to find a differential pressure, which 
   - Save the pressure data and current time onto the text file
   - Put the microcontroller to sleep to conserve power
   - Wake up the microcontroller after 15 minutes
-
+ 
+ ### External Software Libraries Used
+ - [Adafruit BMP280](https://github.com/adafruit/Adafruit_BMP280_Library) (Pressure sensors)
+ - [DS1307 RTC](https://github.com/PaulStoffregen/DS1307RTC) (Real Time Clock)
+ - [LCD1602](https://www.dfrobot.com/wiki/index.php/I2C/TWI_LCD1602_Module_(SKU:_DFR0063)) (LCD screen used for testing purposes)
+ 
+ ### Hardware Components
+ - BMP280 x2 (Pressure Sensor)
+ - DS1307 Real Time Clock
+ - Catalex SD Card Reader + microSD card
+ - Wemos D1 Mini ESP8266 Microcontroller
+ - 4-AA Battery Pack
+ - Switch
+ - 10k resistor for switch
+ - LCD1602 (LCD Screen)
+ 
 #### For a more detailed description of this project (including pictures), please visit my website [here](http://stephaniekyyip.github.io/projects).
