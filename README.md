@@ -9,7 +9,7 @@ The rain gauge used two pressure sensors to find a differential pressure, which 
 
 ### Structure of the Rain Gauge Code
 - Setup SPI and I2C for communication between the microcontroller and components
-- Repeat forever:
+- Repeat forever (or until the battery dies):
   - Retrieve data from the pressure sensors
   - Get the time from the real time clock
   - Create a new text file on the SD card reader
