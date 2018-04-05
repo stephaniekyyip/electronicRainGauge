@@ -5,7 +5,7 @@ For my senior design project, my team was tasked with with creating an environme
 My role in the project included constructing the rain gauge hardware and writing Arduino code for the microcontroller to control the various electronic components. 
 
 ### How the Rain Gauge Works
-The rain gauge used two pressure sensors to find a differential pressure, which can be used to to find the depth of rainwater collected in a PVC tube after calibration. This pressure measurement, along with the current time measured by the Real Time Clock (RTC), was logged onto a micro SD card at a set interval of 15 minutes. The idea was that the rain gauge can be set outside to automatically collect rain data with minimal maintenance, which only includes retrieving the SD card to collect data and changing the batteries. 
+The rain gauge used two pressure sensors to find a differential pressure, which can be used to to find the depth of rainwater collected in a PVC tube after calibration. This pressure measurement, along with the current time measured by the Real Time Clock (RTC), was logged onto a micro SD card at a set interval of 15 minutes. The idea is that the rain gauge can be set outside to automatically collect rain data with minimal maintenance, which includes retrieving the SD card to collect the data and changing the batteries. 
 
 ### Structure of the Rain Gauge Code
 - Setup SPI and I2C for communication between the microcontroller and components
