@@ -3,12 +3,10 @@
  * 
  * Used to log data when the rain gauge is in use outside.
  * 
- * Logs the pressure difference between the two pressure
- * sensors and the temperature of each sensor every 15 minutes. The
- * data is logged to a file called "datalog.txt" on the micro SD card.
+ * Logs the pressure difference between the two pressure sensors and the temperature of each sensor every 15 minutes. The data is logged 
+ * to a file called "datalog.txt" on the micro SD card.
  * 
  * Make sure that RST is connected to D0, so that the microcontroller will wake up after 15 minutes! 
- * 
  * However, when uploading this code, make sure that RST is disconnected from D0, because the code might not upload otherwise.
  * 
  * datalog.txt File Format 
