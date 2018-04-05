@@ -22,13 +22,14 @@ The rain gauge used two pressure sensors to find a differential pressure, which 
  - [LCD1602](https://www.dfrobot.com/wiki/index.php/I2C/TWI_LCD1602_Module_(SKU:_DFR0063)) (LCD screen used for testing and calibration)
  
  ### Hardware Components
-  - Wemos D1 Mini ESP8266 Microcontroller
- - BMP280 x2 (Pressure Sensor)
- - DS1307 Real Time Clock
- - Catalex SD Card Reader + microSD card
+ - Microcontroller (Wemos D1 Mini ESP8266)
+ - Pressure Sensors x2 (BMP280)
+ - Real Time Clock (DS1307)
+ - SD Card Reader (Catalex)
+ - microSD card
  - 4-AA Battery Pack
- - Switch
+ - Switch (for turning the microcontroller on/off)
  - 10k resistor for switch
- - LCD1602 (LCD Screen)
+ - LCD Screen (LCD1602)
  
 #### For a more detailed description of this project (including pictures), please visit my website [here](http://stephaniekyyip.github.io/projects).
