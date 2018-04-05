@@ -32,4 +32,4 @@ The rain gauge used two pressure sensors to find a differential pressure, which 
  - 10k resistor for switch
  - LCD Screen (LCD1602)
  
-#### For a more detailed description of this project (including pictures), please visit my website [here](http://stephaniekyyip.github.io/projects).
+#### For a more details on this project, please visit my website [here](http://stephaniekyyip.github.io/projects).
