@@ -8,8 +8,7 @@ My role in the project included constructing the rain gauge hardware and writing
 The rain gauge used two pressure sensors to find a differential pressure, which can be used to to find the depth of rainwater collected in a PVC tube after calibration. This pressure measurement, along with the current time measured by the Real Time Clock (RTC), was logged onto a micro SD card at a set interval of 15 minutes. The idea is that the rain gauge can be set outside to automatically collect rain data with minimal maintenance, which includes retrieving the SD card to collect the data and changing the batteries. 
 
 ### Structure of the Rain Gauge Code
-- Setup SPI and I2C for communication between the microcontroller and components
-- Repeat forever (or until the battery dies):
+- Loop continously:
   - Retrieve data from the pressure sensors
   - Get the time from the real time clock
   - Create new text file or open existing text file on the SD card
