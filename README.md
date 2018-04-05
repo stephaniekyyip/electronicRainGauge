@@ -2,9 +2,9 @@
 
 For my senior design project, my team was tasked with with creating an environmental sensor curriculum for middle school students. We decided to create an electronic rain gauge with a corresponding curriculum.
 
-The rain gauge used two pressure sensors to find a differential pressure, which can be used to to find the depth of rainwater collected in a PVC tube after calibration. This pressure measurement, along with the current time measured by the Real Time Clock (RTC), was logged onto a micro SD card at a set interval of 15 minutes. The idea was that the rain gauge can be set outside to automatically collect rain data with minimal maintenance, which only includes retrieving the SD card to collect data and changing the batteries. 
+My role in the project included constructing the rain gauge hardware and writing Arduino code for the microcontroller to control the various electronic components. 
 
-In addition to constructing the rain gauge hardware, I also wrote the code for the micrcontroller to control the pressure sensors and other electronic components. 
+The rain gauge used two pressure sensors to find a differential pressure, which can be used to to find the depth of rainwater collected in a PVC tube after calibration. This pressure measurement, along with the current time measured by the Real Time Clock (RTC), was logged onto a micro SD card at a set interval of 15 minutes. The idea was that the rain gauge can be set outside to automatically collect rain data with minimal maintenance, which only includes retrieving the SD card to collect data and changing the batteries. 
 
 ### Structure of Rain Gauge Code:
 - Setup SPI and I2C for communication between the microcontroller and components
