@@ -1,6 +1,6 @@
 # Electronic Rain Gauge
 
-!rain gauge](https://github.com/stephaniekyyip/stephaniekyyip.github.io/blob/master/img/projects/rainGauge/rainGauge.jpg?raw=true)
+![rain gauge](https://github.com/stephaniekyyip/stephaniekyyip.github.io/blob/master/img/projects/rainGauge/rainGauge.jpg?raw=true)
 
 For my senior design project, my team was tasked with with creating an environmental sensor curriculum for middle school students. We decided to create an electronic rain gauge with a corresponding curriculum.
 
