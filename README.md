@@ -26,6 +26,8 @@ The two pressure sensors are used to find a differential pressure, which can be 
  - [LCD1602](https://www.dfrobot.com/wiki/index.php/I2C/TWI_LCD1602_Module_(SKU:_DFR0063)) (LCD screen used for testing and calibration)
  
  ### Hardware Components
+ <imgs src = "https://github.com/stephaniekyyip/stephaniekyyip.github.io/blob/master/img/projects/rainGauge/rainGaugeElectronics.jpg?raw=true" alt = "rain gauge electronics" width = 400px></img>
+ 
  - Microcontroller (Wemos D1 Mini ESP8266)
  - Pressure Sensors x2 (BMP280)
  - Real Time Clock (DS1307)
