@@ -4,15 +4,15 @@
 
 For my senior design project, my team was tasked with with creating an environmental sensor curriculum for middle school students. We decided to create an electronic rain gauge with a corresponding curriculum.
 
-My role in the project included constructing the rain gauge hardware and writing Arduino code for the microcontroller to control the various electronic components. 
+My role in the project included constructing the rain gauge hardware and writing Arduino code for the microcontroller in order to control the various electronic components. 
 
 ## How the Rain Gauge Works
-The rain gauge design involved a funnel attached to a PVC pipe that allowed water to be collected in the PVC. At the bottom of the PVC pipe was a pressure sensor used to find the pressure of the rainwater, which was encased in a waterproofed container. Wires from the pressure sensor were threaded through a waterproof box to connect to the breadboard inside that contains the rest of the electronic components. The second pressure sensor on the breadboard is used to find the atmospheric pressure. 
+The rain gauge design involves a funnel attached to a PVC pipe that allowed water to be collected in the PVC. At the bottom of the PVC pipe is a PVC container that holds the waterproofed pressure sensor, which measures the pressure of the rainwater. Wires from the pressure sensor are threaded through a waterproof box to connect the sensor to the rest of the electronic components. The second pressure sensor on the breadboard is used to find the atmospheric pressure. 
 
-The two pressure sensors are used to find a differential pressure, which can be used to to find the depth of rainwater collected in a PVC tube after calibration. This pressure measurement, along with the current time measured by the Real Time Clock (RTC), was logged onto a micro SD card at a set interval of 15 minutes. The idea is that the rain gauge can be set outside to automatically collect rain data with minimal maintenance, which includes retrieving the SD card to collect the data and changing the batteries. 
+Using the two pressure sensors, the differential pressure can be calculated. The depth of the rainwater collected in the PVC tube can be found using the differential pressure after calibration is done. The differential pressure, along with the current time measured by the Real Time Clock (RTC), is logged onto a micro SD card every 15 minutes. The idea is that the rain gauge can be set outside to automatically collect rain data with minimal maintenance apart from retrieving the SD card to collect the data and changing the batteries. 
 
 ## Structure of the Rain Gauge Code
-- Loop continously:
+- In a continous loop:
   - Retrieve data from the pressure sensors
   - Get the time from the real time clock
   - Create new text file or open existing text file on the SD card
