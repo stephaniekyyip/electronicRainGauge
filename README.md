@@ -39,4 +39,4 @@ Using the two pressure sensors, the differential pressure can be calculated. The
  - 10k resistor for switch
  - LCD Screen (LCD1602)
  
-#### For a more details on this project, please visit my website [here](http://stephaniekyyip.github.io/projects.html#rainGauge).
+#### For a more details on this project, please visit my website [here](http://stephaniekyyip.github.io/rainGauge.html).
