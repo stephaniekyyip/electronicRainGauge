@@ -84,7 +84,7 @@ void setup() {
 
   if (!Rtc.IsDateTimeValid()) 
   {
-        // Common Cuases:
+        // Common Causes:
         //    1) first time you ran and the device wasn't running yet
         //    2) the battery on the device is low or even missing
 
