@@ -1,7 +1,8 @@
 # Electronic Rain Gauge
 
-<img src = "https://github.com/stephaniekyyip/stephaniekyyip.github.io/blob/master/img/projects/rainGauge/rainGauge.jpg?raw=true" alt = "rain gauge" width= 400px></img>
+<img src = "https://github.com/stephaniekyyip/electronicRainGauge/blob/master/rainGauge.jpg?raw=true" alt = "rain gauge" width= 400px></img>
 
+## Overview
 For my senior design project, my team was tasked with with creating an environmental sensor curriculum for middle school students. We decided to create an electronic rain gauge with a corresponding curriculum.
 
 My role in the project included constructing the rain gauge hardware and writing Arduino code for the microcontroller in order to control the various electronic components. 
@@ -27,7 +28,7 @@ Using the two pressure sensors, the differential pressure can be calculated. The
  
  ## Hardware Components
  
- <img src = "https://github.com/stephaniekyyip/stephaniekyyip.github.io/blob/master/img/projects/rainGauge/rainGaugeElectronics.jpg?raw=true" alt = "rain gauge electronics" width = 400px></img>
+ <img src = "https://github.com/stephaniekyyip/electronicRainGauge/blob/master/rainGaugeElectronics.jpg?raw=true" alt = "rain gauge electronics" width = 400px></img>
  
  - Microcontroller (Wemos D1 Mini ESP8266)
  - Pressure Sensors x2 (BMP280)
@@ -39,4 +40,4 @@ Using the two pressure sensors, the differential pressure can be calculated. The
  - 10k resistor for switch
  - LCD Screen (LCD1602)
  
-#### For a more details on this project, please visit my website [here](http://stephaniekyyip.github.io/rainGauge.html).
+#### For a more details on this project, please visit my website [here](https://stephaniekyyip.github.io/projects/rainGauge).
