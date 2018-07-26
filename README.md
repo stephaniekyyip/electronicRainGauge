@@ -13,6 +13,7 @@ The rain gauge design involves a funnel attached to a PVC pipe that allowed wate
 Using the two pressure sensors, the differential pressure can be calculated. The depth of the rainwater collected in the PVC tube can be found using the differential pressure after calibration is done. The differential pressure, along with the current time measured by the Real Time Clock (RTC), is logged onto a micro SD card every 15 minutes. The idea is that the rain gauge can be set outside to automatically collect rain data with minimal maintenance apart from retrieving the SD card to collect the data and changing the batteries. 
 
 ## Structure of the Rain Gauge Code
+Code located in `rain_gauge_datalogging.ino`
 - In a continous loop:
   - Retrieve data from the pressure sensors
   - Get the time from the real time clock
