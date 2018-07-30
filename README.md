@@ -22,7 +22,8 @@ Code located in `rain_gauge_datalogging.ino`
   - Put the microcontroller to sleep to conserve power
   - Wake up the microcontroller after 15 minutes
  
- ## Software Libraries Used
+ ## Software Libraries and Example Code Used
+ - [Adafruit Sensor Driver](https://github.com/adafruit/Adafruit_Sensor)
  - [Adafruit BMP280](https://github.com/adafruit/Adafruit_BMP280_Library) (Pressure sensors)
  - [DS1307 RTC](https://github.com/PaulStoffregen/DS1307RTC) (Real Time Clock)
  - [LCD1602](https://www.dfrobot.com/wiki/index.php/I2C/TWI_LCD1602_Module_(SKU:_DFR0063)) (LCD screen used for testing and calibration)
