@@ -5,7 +5,7 @@
 ## Overview
 For my senior design project, my team was tasked with with creating an environmental sensor curriculum for middle school students. We decided to create an electronic rain gauge with a corresponding curriculum.
 
-My role in the project included constructing the rain gauge hardware and writing Arduino code for the microcontroller in order to control the various electronic components. 
+My role in the project included constructing the rain gauge hardware and writing C/ C++ code using the Arduino IDE for the microcontroller in order to control the various electronic components. 
 
 ## How the Rain Gauge Works
 The rain gauge design involves a funnel attached to a PVC pipe that allowed water to be collected in the PVC. At the bottom of the PVC pipe is a PVC container that holds the waterproofed pressure sensor, which measures the pressure of the rainwater. Wires from the pressure sensor are threaded through a waterproof box to connect the sensor to the rest of the electronic components. The second pressure sensor on the breadboard is used to find the atmospheric pressure. 
@@ -22,7 +22,7 @@ Code located in `rain_gauge_datalogging.ino`
   - Put the microcontroller to sleep to conserve power
   - Wake up the microcontroller after 15 minutes
  
- ## Software Libraries and Example Code Used
+ ## Software Libraries Used
  - [Adafruit Sensor Driver](https://github.com/adafruit/Adafruit_Sensor)
  - [Adafruit BMP280](https://github.com/adafruit/Adafruit_BMP280_Library) (Pressure sensors)
  - [DS1307 RTC](https://github.com/PaulStoffregen/DS1307RTC) (Real Time Clock)
@@ -42,4 +42,4 @@ Code located in `rain_gauge_datalogging.ino`
  - 10k resistor for switch
  - LCD Screen (LCD1602)
  
-#### For a more details on this project, please visit my website [here](https://stephaniekyyip.github.io/projects/rainGauge).
+#### For a more details on this project, please visit my website [here](https://stephaniekyyip.com/projects/rainGauge).
